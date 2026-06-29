@@ -7,6 +7,7 @@ import PullRequest from "./components/PullRequest";
 import Developers from "./components/Developers";
 import Outcomes from "./components/Outcomes";
 import Goverance from "./components/Governance";
+import Static from "./components/Static";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Developers />
       <Outcomes />
       <Goverance />
+      <Static />
     </main>
   );
 }
