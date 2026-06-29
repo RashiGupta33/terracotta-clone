@@ -8,6 +8,8 @@ import Developers from "./components/Developers";
 import Outcomes from "./components/Outcomes";
 import Goverance from "./components/Governance";
 import Static from "./components/Static";
+import Pricing from "./components/Pricing";
+import Connect from "./components/Connect";
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
       <Outcomes />
       <Goverance />
       <Static />
+      <Pricing />
+      <Connect />
     </main>
   );
 }
