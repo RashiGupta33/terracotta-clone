@@ -1,4 +1,4 @@
-import Laminated from '../assets/laminated.png';
+import Laminated from '../assets/Laminated.png';
 import Support from '../assets/support.svg';
 
 export default function Outcomes() {
