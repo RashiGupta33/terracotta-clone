@@ -5,6 +5,7 @@ import TrustedBy from "./components/TrustedBy";
 import Infrastructure from "./components/Infrastructure";
 import PullRequest from "./components/PullRequest";
 import Developers from "./components/Developers";
+import Outcomes from "./components/Outcomes";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Infrastructure />
       <PullRequest />
       <Developers />
+      <Outcomes />
     </main>
   );
 }
