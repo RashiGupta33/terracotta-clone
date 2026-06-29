@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import DemoSection from "./components/DemoSection";
 import TrustedBy from "./components/TrustedBy";
 import Infrastructure from "./components/Infrastructure";
+import PullRequest from "./components/PullRequest";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <DemoSection />
       <TrustedBy />
       <Infrastructure />
+      <PullRequest />
     </main>
   );
 }
