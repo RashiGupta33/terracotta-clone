@@ -10,6 +10,7 @@ import Goverance from "./components/Governance";
 import Static from "./components/Static";
 import Pricing from "./components/Pricing";
 import Connect from "./components/Connect";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
       <Static />
       <Pricing />
       <Connect />
+      <Footer />
     </main>
   );
 }
